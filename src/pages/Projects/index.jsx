@@ -1,0 +1,137 @@
+import React from "react";
+import styles from "./styles.module.css";
+import SimpleImageSlider from "react-simple-image-slider";
+import Link from "react-router-dom";
+import NavBar from "../NavBar";
+
+const Projects = () => {
+  const sliderImagesHealthyHoosiers = [
+    { url: "images/homepage.png" },
+    { url: "images/dashboard.png" },
+    { url: "images/search.png" },
+  ];
+  return (
+    <div>
+      <NavBar></NavBar>
+
+      <div className={styles.projects}>
+        <div className={styles.content_wrap}>
+          <h2>Featured Pojects</h2>
+          <h3>Software Engineering - Full Stack Projects</h3>
+          <div className={styles.projects_item}>
+            <div>
+              <SimpleImageSlider
+                width={400}
+                height={200}
+                images={sliderImagesHealthyHoosiers}
+                showBullets={true}
+                showNavs={true}
+              />
+            </div>
+            <div className={styles.project_description}>
+              <h3>Healthy Hoosiers - Wellness Tracking System | MERN Stack</h3>
+              <p>
+                • Lead a team to plan and develop a dual-authentication wellness
+                tracking web application with OAuth integration. Created 3
+                distinct user interfaces like for clients, fitness professionals
+                (trainers and dieticians), and administrators.
+                <br></br>• Facilitated content and plan uploads by fitness
+                professionals and dieticians for a well-organized process.
+                Furthermore, empowered administrative users to screen trainer
+                content, manage clients, and address customer queries with
+                precision.
+                <br></br>• Accomplished a superior user interface, surpassing
+                the performance of more than 80% of other websites in the same
+                domain and deployed on AWS EC2.
+              </p>
+              <a className = {styles.btn} href="#" target="_blank">View project / case study</a>
+
+            </div>
+          </div>
+          <div className={styles.projects_item}>
+            <div>
+              <SimpleImageSlider
+                width={400}
+                height={200}
+                images={sliderImagesHealthyHoosiers}
+                showBullets={true}
+                showNavs={true}
+              />
+            </div>
+            <div className={styles.project_description}>
+              <h3>
+                Hoosiers Delivery Management System - Delivery Tracking System |
+                SERN Stack
+              </h3>
+              <p>
+                • Hoosiers Delivery Management System is a web-based platform
+                that enables users to conveniently manage and monitor their
+                deliveries. <br></br>• We are utilizing a dataset from Kaggle
+                which includes detailed information about orders, customers, and
+                products. <br></br>• Using this application, the user can input
+                the necessary delivery details such as the items to be delivered
+                and their destination. <br></br>• Additionally, they can update
+                the delivery status as delivered or in progress or not
+                delivered. • The application also allows for basic CRUD (Create,
+                Read, Update, and Delete) operations to be performed on the
+                delivery data points.
+              </p>
+              <a className = {styles.btn} href="#" target="_blank">View project / case study</a>
+            </div>
+          </div>
+          <h3>Data Science - Data Mining and Sentiment Analysis Projects</h3>
+          <div className={styles.projects_item}>
+            <div>
+              <SimpleImageSlider
+                width={400}
+                height={200}
+                images={sliderImagesHealthyHoosiers}
+                showBullets={true}
+                showNavs={true}
+              />
+            </div>
+            <div className={styles.project_description}>
+              <h3>
+                Anime CRP (Classifier, Recommender and Predictor) | Clustering,
+                Associate Analysis, K-Nearest Neighbors |
+              </h3>
+              <p>
+                • Executed an Anime CRP (Classifier, Recommender, and Predictor)
+                project, applying Data Science algorithms like KNN, K-means
+                clustering, and Association Rule Analysis.
+                <br></br>• Applied Python libraries like Matplotlib, NumPy,
+                pandas, and Scikit-Learn to construct the system and got an
+                outstanding 96% of accuracy of predictor, guaranteeing highly
+                precise anime recommendations based on user watch history.
+              </p>
+              <a className = {styles.btn} href="#" target="_blank">View project / case study</a>
+            </div>
+          </div>
+          <div className={styles.projects_item}>
+            <div>
+              <SimpleImageSlider
+                width={400}
+                height={200}
+                images={sliderImagesHealthyHoosiers}
+                showBullets={true}
+                showNavs={true}
+              />
+            </div>
+            <div className={styles.project_description}>
+              <h3>
+                Anime CRP (Classifier, Recommender and Predictor) | Clustering,
+                Associate Analysis, K-Nearest Neighbors |
+              </h3>
+              <p>
+              •	Harvested data from Reddit social media and conducted sentiment analysis utilizing VADER and EMPATH modules, resulting in a substantial increase in the accuracy over 10% of ChatGPT's polarity assessment.
+              </p>
+              <a className = {styles.btn} href="#" target="_blank">View project / case study</a>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;

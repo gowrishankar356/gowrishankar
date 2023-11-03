@@ -1,0 +1,50 @@
+/* Nav Bar
+--------------------------------*/
+.nav_bar{
+    background-color: black;
+    color: white;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar a :hover{
+    background-color: grey;
+}
+
+.nav_bar_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_bar_about{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_bar_about h5{
+    margin-top: 22px;
+}
+
+
+.nav_bar_sub_content{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    padding-top : 4px;
+    /* margin-right: 10%; */
+}
+
+.nav_bar ul{
+    list-style-type: none;
+}
+
+.nav_bar img{
+    margin : 4px 4px 4px 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
