@@ -2,7 +2,7 @@
 /* Global Styles
 --------------------------------*/
 body{
-    background-color: white;
+    background-color: white;  
 }
 
 .content_wrap {
@@ -21,10 +21,20 @@ img {
 /* Projects
 --------------------------------*/
 
-.projects{
+/* .projects{
     background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
     height: 100vh;
     background-position: center;
+    background-size: cover;  
+    background-repeat: repeat;
+} */
+
+.projects{
+    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -34,6 +44,7 @@ img {
     text-decoration: None;
     padding: 8px;
     border-radius: 4px;
+    margin: 4px;
 }
 
 .projects a:hover {

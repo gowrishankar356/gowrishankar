@@ -25,6 +25,10 @@
     flex-direction: row;
 }
 
+.nav_bar_about h3{
+    margin-right: 10px;
+}
+
 .nav_bar_about h5{
     margin-top: 22px;
 }

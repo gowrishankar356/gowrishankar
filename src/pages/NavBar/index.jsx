@@ -9,7 +9,6 @@ const NavBar = () => {
           <h3>Gowri Shankar Badugu | </h3>
           <h5>Software Developer Intern at Pringle Robitics Inc.</h5>
         </div>
-
         <div className={styles.nav_bar_sub_content}>
           <ul>
             <li>
