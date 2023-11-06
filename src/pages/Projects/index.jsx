@@ -128,10 +128,10 @@ const Projects = () => {
                 in a substantial increase in the accuracy over 10% of ChatGPT's
                 polarity assessment.
               </p>
-              <a className={styles.btn} href="#" target="_blank">
+              <a className={styles.btn} href="https://github.com/gowrishankar356/Sentiment-Analysis-on-ChatGPT-Usage-in-Everyday-Life.git" target="_blank">
                 View Project
               </a>
-              <a className={styles.btn} href="#" target="_blank">
+              <a className={styles.btn} href="https://drive.google.com/file/d/1XzX495QoKMDxHM_c53RPpb09fHd9WmIl/view?usp=sharing" target="_blank">
                 View Paper
               </a>
             </div>

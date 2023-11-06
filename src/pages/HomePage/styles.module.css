@@ -1,12 +1,19 @@
 /* Global Styles
 --------------------------------*/
 body{
-    background-color: grey;
+    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Satisfy';
+    font-size: 15px;
 }
 
 .content_wrap {
     max-width : 1000px;
-    width: 80%;
+    width: 90%;
     margin : 0 auto;
     padding : 60px 0;
 }
@@ -16,16 +23,16 @@ img {
     height: 150px;
 }
 
-
-
-
 /* About section
 --------------------------------*/
+
 .about p{
     font-family: 'Times New Roman'; 
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 20px; 
+    font-weight: 500;
 }
 
 .about h4{
@@ -38,24 +45,26 @@ img {
 
 .title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    color:  rgb(0, 155, 183);
 }
 
 .title h1{
     margin: 0px;
     padding: 4px;
     font-family: 'Brush Script MT', cursive;
-    font-weight: 500;
+    font-weight: 800;
+    font-size: xxx-large;
 }
 
 .title h4{
     margin: 0px;
     padding: 4px;
     font-family: 'Times New Roman';
-    font-weight: 500;    
+    font-size: small;
 }
 
 .cover img{
