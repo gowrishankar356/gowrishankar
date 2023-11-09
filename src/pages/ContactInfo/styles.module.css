@@ -1,0 +1,33 @@
+.content_wrap {
+    max-width : 1000px;
+    width: 90%;
+    margin : 0 auto;
+    padding : 60px 0;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h3{
+    color:  rgb(0, 155, 183);
+    font-family: 'Open Sans', cursive;
+}
+
+footer img{
+    width: 30px;
+    height: 20px;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_list a {
+    margin-bottom: 4px;
+    padding: 15px;
+    text-decoration: none;
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-import SimpleImageSlider from "react-simple-image-slider";
-import Link from "react-router-dom";
+import ContactInfo from "../ContactInfo"
 import NavBar from "../NavBar";
 
 const HomePage = () => {
@@ -10,7 +9,7 @@ const HomePage = () => {
       <NavBar></NavBar>
       <div className={styles.content_wrap}>
         <div className={styles.title}>
-          <h1>Gowri Shankar Badugu</h1>
+          <h1>Hey there! I'm Gowri Shankar Badugu</h1>
           <h4>
             Full Stack Developer | Data Science Graduate
           </h4>
@@ -57,6 +56,7 @@ const HomePage = () => {
           <p></p>
         </div>
       </div>
+      <ContactInfo></ContactInfo>
     </div>
   );
 };
