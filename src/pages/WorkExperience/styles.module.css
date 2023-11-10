@@ -1,48 +1,75 @@
-
 /* Global Styles
 --------------------------------*/
-body{
+body {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
 .content_wrap {
-    max-width : 1000px;
+    max-width: 1000px;
     width: 80%;
-    margin : 0 auto;
-    padding : 60px 0;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 
 
 img {
-    width : 300px;
+    width: 300px;
     height: 150px;
+}
+
+.content_wrap h2 {
+    margin: 0px;
 }
 
 /* Work experience
 --------------------------------*/
-.work_experience_background{
+.work_experience_background {
     background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/bagroundWorkExperience.avif");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .work_experience {
     font-weight: 500;
 }
 
+.work_experience h3 {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0px;
+}
+
+.job_summary{
+    margin-top: 8px;
+}
+
+
 .job_container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
     border-bottom: 1px dashed grey;
-    padding: 25px 0;    
+    padding: 25px 0;
 }
+
+.job_item img {
+    margin-top: 8px;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.company_info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 /* Education Info*/
 .baground {
     background-size: cover;

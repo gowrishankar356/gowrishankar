@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./styles.module.css";
 import NavBar from "../NavBar";
+import ContactInfo from "../ContactInfo";
+import { Typewriter } from "react-simple-typewriter";
 
 const WorkExperience = () => {
   return (
@@ -12,11 +14,26 @@ const WorkExperience = () => {
             <h2>Work Experience</h2>
             <div className={styles.job_container}>
               <div className={styles.job_item}>
-                <h3>Software Engineer Intern</h3>
-                <p>Pringle Robotics Inc.</p>
+                <h2>
+                  <Typewriter
+                    words={["Software Engineer Intern"]}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={100}
+                  />
+                </h2>
+                <div className={styles.company_info}>
+                  <p>Pringle Robotics Inc.</p>
+                  <span>
+                    <a href="https://www.pringlerobotics.ai/" target="_blank">
+                      <img src="images/pringlerobotics.jpeg"></img>
+                    </a>
+                  </span>
+                </div>
                 <p>01-06-2023 - Ongoing</p>
               </div>
               <div className={styles.job_summary}>
+                <h3>Responsibilities: </h3>
                 <ul>
                   <li>
                     Developed a client-server application (Pringle NOC) in a
@@ -61,20 +78,39 @@ const WorkExperience = () => {
                     utilizing Trello as a Scrum board, resulting in a 40%
                     increase in team collaboration and a 15% reduction in
                     project delivery time.
-                  </li>        
+                  </li>
                 </ul>
-                <h4>Skills acquired</h4>
-                <p>· C# · ASP.NET(MVC) · Microsoft SQL Server · React.js · Next.js · TypeScript <br></br>· Visual Studio · BitBucket · Agile Software Methodologies </p>                
+                <h3>Skills acquired: </h3>
+                <p>
+                  · C# · ASP.NET(MVC) · Microsoft SQL Server · ReactJS · NextJS
+                  · TypeScript <br></br>· Visual Studio · BitBucket · Agile
+                  Software Methodologies{" "}
+                </p>
               </div>
             </div>
 
             <div className={styles.job_container}>
               <div className={styles.job_item}>
-                <h3>Oracle HCM Associate Consultant</h3>
-                <p>Nalsoft Pvt Ltd.</p>
+                <h2>
+                  <Typewriter
+                    words={["Oracle HCM Associate Consultant"]}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={100}
+                  />
+                </h2>
+                <div className={styles.company_info}>
+                  <p>Nalsoft Pvt Ltd.</p>
+                  <span>
+                    <a href="https://nalsoft.net/" target="_blank">
+                      <img src="images/nalsoft.jpeg"></img>
+                    </a>
+                  </span>
+                </div>
                 <p>20 OCT, 2020 - 28 FEB, 2022</p>
               </div>
               <div className={styles.job_summary}>
+                <h3>Responsibilities: </h3>
                 <p>
                   Worked as an Oracle HCM Associate Consultant for fusion apps
                   concentrating in Payroll, Core HR, Self-Service, and Oracle
@@ -113,12 +149,17 @@ const WorkExperience = () => {
                     optimization and implementing Oracle Fusion ERP System.
                   </li>
                 </ul>
-                <h4>Skills acquired</h4>
-                <p>Pl/SQL · SQL · Java · Payroll · Core HR · Self Service · Learning Management<br></br> · Absence Management · Time and Labor</p>
+                <h3>Skills acquired: </h3>
+                <p>
+                  Pl/SQL · SQL · Java · Payroll · Core HR · Self Service ·
+                  Learning Management<br></br> · Absence Management · Time and
+                  Labor
+                </p>
               </div>
             </div>
           </div>
         </div>
+        <ContactInfo></ContactInfo>
       </div>
     </div>
   );

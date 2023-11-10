@@ -10,11 +10,11 @@ const NavBar = () => {
           <h4>Software Developer Intern at Pringle Robitics Inc.</h4>
         </div>
         <div className={styles.nav_bar_sub_content}>
-        <ul>
+          <ul>
             <li>
               <a href="/">Home</a>
             </li>
-          </ul>          
+          </ul>
           <ul>
             <li>
               <a href="/education">Education</a>
@@ -30,7 +30,6 @@ const NavBar = () => {
               <a href="/projects">Featured Projects</a>
             </li>
           </ul>
-          <img src="./images/profile.jpeg"></img>
         </div>
       </div>
     </div>
