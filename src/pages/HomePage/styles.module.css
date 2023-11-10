@@ -1,7 +1,7 @@
 /* Global Styles
 --------------------------------*/
 body{
-    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
+    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/bagroundWorkExperience.avif");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -9,6 +9,7 @@ body{
     background-size: cover; 
     font-family: 'Satisfy';
     font-size: 15px;
+    color: white;
 }
 
 .content_wrap {
@@ -31,7 +32,7 @@ img {
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
-    line-height: 20px; 
+    line-height: 22px; 
     font-weight: 500;
 }
 
@@ -49,7 +50,6 @@ img {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    color:  rgb(0, 155, 183);
 }
 
 .title h1{

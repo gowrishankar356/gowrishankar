@@ -24,7 +24,7 @@ img {
 /* Work experience
 --------------------------------*/
 .work_experience_background{
-    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
+    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/bagroundWorkExperience.avif");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -33,7 +33,6 @@ img {
 }
 
 .work_experience {
-    color:rgb(0, 0, 0);
     font-weight: 500;
 }
 

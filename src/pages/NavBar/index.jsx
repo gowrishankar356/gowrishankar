@@ -6,8 +6,8 @@ const NavBar = () => {
     <div className={styles.nav_bar}>
       <div className={styles.nav_bar_content}>
         <div className={styles.nav_bar_about}>
-          <h3>Gowri Shankar Badugu | </h3>
-          <h5>Software Developer Intern at Pringle Robitics Inc.</h5>
+          <h2>Gowri Shankar Badugu | </h2>
+          <h4>Software Developer Intern at Pringle Robitics Inc.</h4>
         </div>
         <div className={styles.nav_bar_sub_content}>
         <ul>

@@ -3,6 +3,8 @@
     width: 90%;
     margin : 0 auto;
     padding : 60px 0;
+    color: white;
+    font-weight: 600;
 }
 
 footer {
@@ -10,12 +12,14 @@ footer {
 }
 
 footer h3{
-    color:  rgb(0, 155, 183);
     font-family: 'Open Sans', cursive;
 }
 
 footer img{
-    width: 30px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+    width: 20px;
     height: 20px;
 }
 

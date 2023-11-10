@@ -1,56 +1,73 @@
 /* Nav Bar
 --------------------------------*/
-.nav_bar{
-    background-color: rgb(0, 155, 183);
+
+.nav_bar {
     color: white;
     font-family: 'Open Sans';
 }
 
-.nav_bar a{
+.nav_bar a {
     text-decoration: none;
     color: white;
 }
 
-.nav_bar a :hover{
+.nav_bar a :hover {
     background-color: grey;
 }
 
-.nav_bar_content{
+.nav_bar_content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.nav_bar_about{
+.nav_bar_about {
     display: flex;
     flex-direction: row;
     margin-left: 10px;
     font-family: 'Open Sans', cursive;
 }
 
-.nav_bar_about h3{
+.nav_bar_about h2 {
     margin-right: 10px;
 }
 
-.nav_bar_about h5{
-    margin-top: 22px;
+.nav_bar_about h4 {
+    margin-top: 24px;
 }
 
 
-.nav_bar_sub_content{
+.nav_bar_sub_content {
     display: flex;
     flex-direction: row;
-    justify-content:end;
-    padding-top : 4px;
+    justify-content: end;
+    padding-top: 4px;
 }
 
-.nav_bar ul{
+.nav_bar ul {
     list-style-type: none;
+
 }
 
-.nav_bar img{
-    margin : 6px 10px 6px 30px;
+.nav_bar ul li ul {
+    position: absolute;
+}
+
+.nav_bar img {
+    margin: 6px 10px 6px 30px;
     height: 45px;
     width: 45px;
     border-radius: 50%;
+}
+
+
+.nav_bar_sub_content a:hover {
+    position: relative;
+}
+
+
+.nav_bar_sub_content a:hover {
+    padding: 8px;
+    background-color: orange;
+    border-radius: 8px;
 }

@@ -1,23 +1,27 @@
-
 /* Global Styles
 --------------------------------*/
-body{
-    background-color: white;  
+body {
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;    
+    font-size: 15px;
 }
 
 .content_wrap {
-    max-width : 1000px;
+    max-width: 1000px;
     width: 80%;
-    margin : 0 auto;
-    padding : 60px 0;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
-img {
-    width : 300px;
-    height: 150px;
+h2 {
+    font-family: 'Open Sans', cursive;
 }
+
+.content_wrap h3 {
+    font-family: 'Open Sans', cursive;
+    color: rgb(0, 155, 183);
+}
+
 
 
 /* Projects
@@ -31,8 +35,8 @@ img {
     background-repeat: repeat;
 } */
 
-.projects{
-    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
+.projects {
+    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/bagroundWorkExperience.avif");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -42,7 +46,7 @@ img {
 
 .projects .btn {
     color: #F7FFF7;
-    background: #2F0361; 
+    background: rgb(0, 155, 183);
     text-decoration: None;
     padding: 8px;
     border-radius: 4px;
@@ -50,10 +54,10 @@ img {
 }
 
 .projects a:hover {
-    background: rgba(47 , 48 , 97, 80%);
+    background: rgb(0, 155, 183, 80%);
 }
 
-.projects_item{
+.projects_item {
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -61,9 +65,11 @@ img {
     padding: 25px 0;
 }
 
-.projects_item img {
+
+.projects_item SimpleImageSlider {
     float: left;
     margin: auto auto;
+    border-radius: 10%;
 }
 
 .projects_item h3 {
@@ -74,4 +80,3 @@ img {
     margin-left: 20px;
     text-align: justify;
 }
-

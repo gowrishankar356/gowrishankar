@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./styles.module.css";
-import ContactInfo from "../ContactInfo"
+import ContactInfo from "../ContactInfo";
 import NavBar from "../NavBar";
+import { Typewriter } from "react-simple-typewriter";
 
 const HomePage = () => {
   return (
@@ -9,9 +10,26 @@ const HomePage = () => {
       <NavBar></NavBar>
       <div className={styles.content_wrap}>
         <div className={styles.title}>
-          <h1>Hey there! I'm Gowri Shankar Badugu</h1>
+          <h1>
+            Hey there!
+            <Typewriter
+              words={["I'm Gowri Shankar Badugu."]}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+            />
+          </h1>
           <h4>
-            Full Stack Developer | Data Science Graduate
+            {" "}
+            <Typewriter
+              words={["Full Stack Developer!", "Data Science Graduate at Indiana University Bloomington!"]}
+              loop={5}
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </h4>
         </div>
         <div className={styles.about}>
@@ -50,10 +68,8 @@ const HomePage = () => {
             Express.js, React.js, Next.js.<br></br>
             Databases: SQL Server, MySQL, MongoDB, Oracle SQL, MySQL.<br></br>
             Developer Tools: Visual Studio 22, VS Code, GIT Hub, Bitbucket,
-            Jupyter Notebook.<br></br>
-            <br></br>
+            Jupyter Notebook.
           </p>
-          <p></p>
         </div>
       </div>
       <ContactInfo></ContactInfo>

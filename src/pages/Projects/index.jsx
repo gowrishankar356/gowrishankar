@@ -33,6 +33,8 @@ const Projects = () => {
                 images={sliderImagesHealthyHoosiers}
                 showBullets={true}
                 showNavs={true}
+                navSize={30}
+                autoPlay={true}
               />
             </div>
             <div className={styles.project_description}>
@@ -68,6 +70,9 @@ const Projects = () => {
                 images={sliderImagesHoosiersDeliveryManagement}
                 showBullets={true}
                 showNavs={true}
+                navSize={30}
+                autoPlay={true}
+                className = {styles.image}
               />
             </div>
             <div className={styles.project_description}>
@@ -88,12 +93,20 @@ const Projects = () => {
                 Read, Update, and Delete) operations to be performed on the
                 delivery data points.
               </p>
-                <a className={styles.btn} href="https://github.com/gowrishankar356/Hoosiers-Delivery-Management-System.git" target="_blank">
-                  View Project
-                </a>
-                <a className={styles.btn} href="https://youtu.be/uAXB_JSyOx0?si=a0ibmIhjCwSrFfsD" target="_blank">
-                  View Video
-                </a>
+              <a
+                className={styles.btn}
+                href="https://github.com/gowrishankar356/Hoosiers-Delivery-Management-System.git"
+                target="_blank"
+              >
+                View Project
+              </a>
+              <a
+                className={styles.btn}
+                href="https://youtu.be/uAXB_JSyOx0?si=a0ibmIhjCwSrFfsD"
+                target="_blank"
+              >
+                View Video
+              </a>
             </div>
           </div>
           <h3>Data Science - Data Mining and Sentiment Analysis Projects</h3>
@@ -112,7 +125,11 @@ const Projects = () => {
                 outstanding 96% of accuracy of predictor, guaranteeing highly
                 precise anime recommendations based on user watch history.
               </p>
-              <a className={styles.btn} href="https://github.com/gowrishankar356/Anime-CRP-Classifier-Recommender-and-Predictor-.git" target="_blank">
+              <a
+                className={styles.btn}
+                href="https://github.com/gowrishankar356/Anime-CRP-Classifier-Recommender-and-Predictor-.git"
+                target="_blank"
+              >
                 View Project
               </a>
             </div>
@@ -120,7 +137,8 @@ const Projects = () => {
           <div className={styles.projects_item}>
             <div className={styles.project_description}>
               <h3>
-              Sentiment Analysis on ChatGPT Usage in Everyday Life | VADER & EMPATH|
+                Sentiment Analysis on ChatGPT Usage in Everyday Life | VADER &
+                EMPATH|
               </h3>
               <p>
                 • Harvested data from Reddit social media and conducted
@@ -128,10 +146,18 @@ const Projects = () => {
                 in a substantial increase in the accuracy over 10% of ChatGPT's
                 polarity assessment.
               </p>
-              <a className={styles.btn} href="https://github.com/gowrishankar356/Sentiment-Analysis-on-ChatGPT-Usage-in-Everyday-Life.git" target="_blank">
+              <a
+                className={styles.btn}
+                href="https://github.com/gowrishankar356/Sentiment-Analysis-on-ChatGPT-Usage-in-Everyday-Life.git"
+                target="_blank"
+              >
                 View Project
               </a>
-              <a className={styles.btn} href="https://drive.google.com/file/d/1XzX495QoKMDxHM_c53RPpb09fHd9WmIl/view?usp=sharing" target="_blank">
+              <a
+                className={styles.btn}
+                href="https://drive.google.com/file/d/1XzX495QoKMDxHM_c53RPpb09fHd9WmIl/view?usp=sharing"
+                target="_blank"
+              >
                 View Paper
               </a>
             </div>
