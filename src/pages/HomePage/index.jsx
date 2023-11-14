@@ -13,13 +13,13 @@ const HomePage = () => {
           <h1>
             Hey there!
             <Typewriter
-              words={["I'm Gowri Shankar Badugu."]}
+              words={[" I'm Gowri Shankar Badugu."]}
               cursor
               cursorStyle="|"
               typeSpeed={100}
             />
           </h1>
-          <h4>
+          <h3>
             <Typewriter
               words={[
                 "Full Stack Developer!",
@@ -32,7 +32,7 @@ const HomePage = () => {
               deleteSpeed={50}
               delaySpeed={1000}
             />
-          </h4>
+          </h3>
         </div>
         <div className={styles.about}>
           <div>

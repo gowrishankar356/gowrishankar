@@ -69,6 +69,6 @@
 
 .nav_bar_sub_content a:hover {
     padding: 8px;
-    background-color: orange;
+    background-color: rgba(218, 143, 5, 0.711);
     border-radius: 8px;
 }

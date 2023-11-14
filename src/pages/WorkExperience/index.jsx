@@ -23,7 +23,7 @@ const WorkExperience = () => {
                   />
                 </h2>
                 <div className={styles.company_info}>
-                  <p>Pringle Robotics Inc.</p>
+                  <h4>Pringle Robotics Inc.</h4>
                   <span>
                     <a href="https://www.pringlerobotics.ai/" target="_blank">
                       <img src="images/pringlerobotics.jpeg"></img>
@@ -33,6 +33,14 @@ const WorkExperience = () => {
                 <p>01-06-2023 - Ongoing</p>
               </div>
               <div className={styles.job_summary}>
+                <p>
+                  Working as a Software Developer Intern mainly concerntrated on
+                  building web applications to track and maintain robots.
+                </p>
+                <p>
+                  Tech stack mainly used is ReactJS, NextJS, TypeScript, C#,
+                  ASP.NET, and SQL
+                </p>
                 <h3>Responsibilities: </h3>
                 <ul>
                   <li>
@@ -100,7 +108,7 @@ const WorkExperience = () => {
                   />
                 </h2>
                 <div className={styles.company_info}>
-                  <p>Nalsoft Pvt Ltd.</p>
+                  <h4>Nalsoft Pvt Ltd.</h4>
                   <span>
                     <a href="https://nalsoft.net/" target="_blank">
                       <img src="images/nalsoft.jpeg"></img>
@@ -110,14 +118,13 @@ const WorkExperience = () => {
                 <p>20 OCT, 2020 - 28 FEB, 2022</p>
               </div>
               <div className={styles.job_summary}>
-                <h3>Responsibilities: </h3>
                 <p>
                   Worked as an Oracle HCM Associate Consultant for fusion apps
                   concentrating in Payroll, Core HR, Self-Service, and Oracle
                   Time and Labor.
                 </p>
-                <p>Tech stack mainly used are Pl/SQL and SQL.</p>
-                <h4>Responsibilities include: </h4>
+                <p>Tech stack mainly used is Pl/SQL and SQL.</p>
+                <h3>Responsibilities: </h3>
                 <ul>
                   <li>
                     Implemented and demonstrated three full-time Oracle Fusion

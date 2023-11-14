@@ -13,8 +13,6 @@ body {
     padding: 60px 0;
 }
 
-
-
 img {
     width: 300px;
     height: 150px;
@@ -39,15 +37,28 @@ img {
     font-weight: 500;
 }
 
-.work_experience h3 {
-    font-family: 'Brush Script MT', cursive;
-    margin: 0px;
+.work_experience p {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.job_summary{
+.work_experience h4 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: large;
+}
+
+.work_experience h2 {
     margin-top: 8px;
 }
 
+.work_experience h3 {
+    font-family: 'Georgia', cursive;
+    margin: 0px;
+    background-color: rgba(218, 143, 5, 0.711);
+    padding: 4px;
+    border-radius: 4px;
+    max-width: 150px;
+}
 
 .job_container {
     display: grid;
@@ -58,7 +69,7 @@ img {
 }
 
 .job_item img {
-    margin-top: 8px;
+    margin-top: 16px;
     width: 60px;
     height: 30px;
     border-radius: 4px;
@@ -68,6 +79,11 @@ img {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.job_summary {
+    line-height: 1.6;
+    font-weight: 510;
 }
 
 /* Education Info*/
