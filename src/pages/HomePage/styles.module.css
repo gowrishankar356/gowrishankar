@@ -35,7 +35,7 @@ img {
 
 .about img {
     padding: 25px;
-    margin-top: 35px;
+    margin-top: 55px;
     margin-right: 25px;
     width: 325px;
     height: 500px;
@@ -49,6 +49,7 @@ img {
     margin-right: 20px;
     line-height: 22px;
     font-weight: 500;
+    font-size: medium;
 }
 
 .about h4 {

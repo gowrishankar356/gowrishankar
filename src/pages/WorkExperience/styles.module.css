@@ -55,9 +55,9 @@ img {
     font-family: 'Georgia', cursive;
     margin: 0px;
     background-color: rgba(218, 143, 5, 0.711);
-    padding: 4px;
+    padding: 8px;
     border-radius: 4px;
-    max-width: 150px;
+    max-width: 160px;
 }
 
 .job_container {
@@ -84,6 +84,7 @@ img {
 .job_summary {
     line-height: 1.6;
     font-weight: 510;
+    font-size: medium;
 }
 
 /* Education Info*/
