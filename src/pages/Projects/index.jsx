@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import SimpleImageSlider from "react-simple-image-slider";
-import Link from "react-router-dom";
+import ContactInfo from "../ContactInfo";
 import NavBar from "../NavBar";
 
 const Projects = () => {
@@ -26,10 +26,11 @@ const Projects = () => {
           <h2>Featured Pojects</h2>
           <h3>Software Engineering - Full Stack Projects</h3>
           <div className={styles.projects_item}>
-            <div>
+            <div className={styles.slider}>
               <SimpleImageSlider
                 width={400}
                 height={200}
+                navMargin={5}
                 images={sliderImagesHealthyHoosiers}
                 showBullets={true}
                 showNavs={true}
@@ -63,7 +64,7 @@ const Projects = () => {
             </div>
           </div>
           <div className={styles.projects_item}>
-            <div>
+            <div className={styles.slider_2}>
               <SimpleImageSlider
                 width={400}
                 height={200}
@@ -72,7 +73,7 @@ const Projects = () => {
                 showNavs={true}
                 navSize={30}
                 autoPlay={true}
-                className = {styles.image}
+                className={styles.image}
               />
             </div>
             <div className={styles.project_description}>
@@ -163,6 +164,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <ContactInfo></ContactInfo>
       </div>
     </div>
   );

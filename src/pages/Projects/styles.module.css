@@ -7,33 +7,24 @@ body {
 }
 
 .content_wrap {
-    max-width: 1000px;
+    max-width: 1100px;
     width: 80%;
     margin: 0 auto;
     padding: 60px 0;
 }
 
-h2 {
-    font-family: 'Open Sans', cursive;
+.content_wrap h2 {
+    font-family: 'work sans',sans-serif;
 }
 
 .content_wrap h3 {
-    font-family: 'Open Sans', cursive;
-    color: rgb(0, 155, 183);
+    font-family: 'work sans',cursive;
 }
 
 
 
 /* Projects
 --------------------------------*/
-
-/* .projects{
-    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/projects_background.avif");
-    height: 100vh;
-    background-position: center;
-    background-size: cover;  
-    background-repeat: repeat;
-} */
 
 .projects {
     background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/bagroundWorkExperience.avif");
@@ -46,37 +37,49 @@ h2 {
 
 .projects .btn {
     color: #F7FFF7;
-    background: rgb(0, 155, 183);
+    background: orange;
     text-decoration: None;
     padding: 8px;
     border-radius: 4px;
     margin: 4px;
 }
 
-.projects a:hover {
-    background: rgb(0, 155, 183, 80%);
+.project_description a:hover {
+    background: rgba(218, 143, 5, 0.711);
 }
 
 .projects_item {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px dashed #343434;
+    border-bottom: 1px dashed #eceaea;
     padding: 25px 0;
 }
 
+.slider {
+    margin-top: 40px;
+    border-radius: 8px;
+}
 
-.projects_item SimpleImageSlider {
-    float: left;
-    margin: auto auto;
-    border-radius: 10%;
+.slider_2 {
+    margin-top: 50px;
 }
 
 .projects_item h3 {
-    margin-top: 0;
+    margin-top: 0;    
 }
 
 .project_description {
     margin-left: 20px;
     text-align: justify;
+}
+
+.project_description p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    line-height: 1.6;
+}
+
+.project_description h3{
+    font-family: 'work sans',sans-serif;
 }

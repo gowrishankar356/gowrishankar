@@ -11,10 +11,6 @@
     color: white;
 }
 
-.nav_bar a :hover {
-    background-color: grey;
-}
-
 .nav_bar_content {
     display: flex;
     flex-direction: row;
@@ -60,12 +56,6 @@
     width: 45px;
     border-radius: 50%;
 }
-
-
-.nav_bar_sub_content a:hover {
-    position: relative;
-}
-
 
 .nav_bar_sub_content a:hover {
     padding: 8px;

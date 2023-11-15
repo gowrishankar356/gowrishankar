@@ -17,11 +17,6 @@ const NavBar = () => {
           </ul>
           <ul>
             <li>
-              <a href="/education">Education</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
               <a href="/experience">Work Experience</a>
             </li>
           </ul>
