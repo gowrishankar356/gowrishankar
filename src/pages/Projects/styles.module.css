@@ -27,7 +27,7 @@ body {
 --------------------------------*/
 
 .projects {
-    background-image: url("/Users/badugugowrishankar/Desktop/Projects/portfolio/my-react-app/public/images/bagroundWorkExperience.avif");
+    background-image: url("images/bagroundWorkExperience.avif");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
