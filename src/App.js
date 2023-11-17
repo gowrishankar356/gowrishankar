@@ -1,5 +1,4 @@
 import {
-  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -11,13 +10,11 @@ import WorkExperience from "./pages/WorkExperience";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<HomePage/>}/>
           <Route path="/projects" exact element={<Projects/>}/>
           <Route path="/experience" exact element={<WorkExperience/>}/>
         </Routes>
-      </BrowserRouter>
     </div>
   );
 }
