@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gowrishankar/public/index.html/static/css/main.bf803618.css",
-    "main.js": "/gowrishankar/public/index.html/static/js/main.f29911be.js",
-    "static/js/787.bc7d429a.chunk.js": "/gowrishankar/public/index.html/static/js/787.bc7d429a.chunk.js",
-    "static/media/bagroundWorkExperience.avif": "/gowrishankar/public/index.html/static/media/bagroundWorkExperience.436a5ec1152aa4c73e3c.avif",
-    "index.html": "/gowrishankar/public/index.html/index.html",
-    "main.bf803618.css.map": "/gowrishankar/public/index.html/static/css/main.bf803618.css.map",
-    "main.f29911be.js.map": "/gowrishankar/public/index.html/static/js/main.f29911be.js.map",
-    "787.bc7d429a.chunk.js.map": "/gowrishankar/public/index.html/static/js/787.bc7d429a.chunk.js.map"
+    "main.css": "/gowrishankar/static/css/main.840562ff.css",
+    "main.js": "/gowrishankar/static/js/main.e3b2ef7e.js",
+    "static/js/787.bc7d429a.chunk.js": "/gowrishankar/static/js/787.bc7d429a.chunk.js",
+    "static/media/bagroundWorkExperience.avif": "/gowrishankar/static/media/bagroundWorkExperience.436a5ec1152aa4c73e3c.avif",
+    "index.html": "/gowrishankar/index.html",
+    "main.840562ff.css.map": "/gowrishankar/static/css/main.840562ff.css.map",
+    "main.e3b2ef7e.js.map": "/gowrishankar/static/js/main.e3b2ef7e.js.map",
+    "787.bc7d429a.chunk.js.map": "/gowrishankar/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf803618.css",
-    "static/js/main.f29911be.js"
+    "static/css/main.840562ff.css",
+    "static/js/main.e3b2ef7e.js"
   ]
 }
