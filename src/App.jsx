@@ -7,7 +7,7 @@ import WorkExperience from "./pages/WorkExperience";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/gowrishankar">
         <Routes>
           <Route path=""  element={<HomePage />} />
           <Route path="projects"  element={<Projects />} />
