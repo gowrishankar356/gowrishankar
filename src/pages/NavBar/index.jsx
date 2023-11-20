@@ -12,7 +12,7 @@ const NavBar = () => {
         <div className={styles.nav_bar_sub_content}>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="/gowrishankar">Home</a>
             </li>
           </ul>
           <ul>
