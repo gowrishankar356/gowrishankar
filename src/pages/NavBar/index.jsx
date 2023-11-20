@@ -17,12 +17,12 @@ const NavBar = () => {
           </ul>
           <ul>
             <li>
-              <a href="/experience">Work Experience</a>
+              <a href="/gowrishankar/experience">Work Experience</a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="/projects">Featured Projects</a>
+              <a href="/gowrishankar/projects">Featured Projects</a>
             </li>
           </ul>
         </div>
