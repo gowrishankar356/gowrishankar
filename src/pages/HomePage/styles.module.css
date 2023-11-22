@@ -61,7 +61,7 @@ img {
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
-    line-height:2 ;
+    line-height: 2;
 }
 
 .bold {
@@ -102,5 +102,140 @@ img {
     max-height: 250px;
 }
 
-/* Project Section
---------------------------------*/
+
+
+/* Skills Section*/
+.skills {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 20px
+}
+
+.skills_item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills_item h4{
+    margin: 0;
+}
+
+.progress_bar {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.progress_bar_fill {
+    width: 80%;
+    height: 64%;
+    background-color: rgb(63, 62, 62);
+    border-radius: 10px;
+    padding: 4px;
+    border: groove;
+    font-size: small;
+}
+
+.python_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.csharp_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.sql_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.plsql_skill{
+    width: 65%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.javascript_skill{
+    width: 80%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.html_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.css_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.react_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.node_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.express_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.dotnet_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.postgre_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.sqlserver_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.mysql_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.oraclesql_skill{
+    width: 85%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.mongodb_skill{
+    width: 50%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.git_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.vscode_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.vs2022_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}
+
+.bitbucket_skill{
+    width: 70%;
+    background-color: rgb(63, 62, 62);  
+}

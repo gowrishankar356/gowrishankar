@@ -73,21 +73,121 @@ const HomePage = () => {
           </div>
         </div>
         <div className={styles.skills}>
-            <div>
-              <h3>Skills:</h3>
-              <span className={styles.bold}>Languages:</span> Python, C#,
-              ASP.NET, Java, SQL, Pl/SQL.
-              <br></br>
-              <span className={styles.bold}>Web Development:</span> JavaScript,
-              TypeScript, HTML5, CSS, Node.js,Express.js, React.js, Next.js.
-              <br></br>
-              <span className={styles.bold}>Databases:</span> SQL Server, MySQL,
-              MongoDB, Oracle SQL, MySQL.<br></br>
-              <span className={styles.bold}>Developer Tools:</span> Visual
-              Studio 22, VS Code, GIT Hub, Bitbucket, Jupyter Notebook.
+          <div className={styles.skills_item}>
+            <h4>Languages:</h4>
+            <div className={styles.progress_bar}>
+              <div className={`${styles.progress_bar_fill} ${styles.python_skill}`}>
+                <span>Python</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.csharp_skill}`}>
+                <span>C#</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.sql_skill}`}>
+                <span>SQL</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.plsql_skill}`}>
+                <span>Pl/SQL</span>
+              </div>
             </div>
           </div>
+          <div className={styles.skills_item}>
+            <h4>Web Development:</h4>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.javascript_skill}`}>
+                <span>JavaScript</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.html_skill}`}>
+                <span>HTML5</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.css_skill}`}>
+                <span>CSS</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.react_skill}`}>
+                <span>React.js</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.node_skill}`}>
+                <span>Node.js</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.express_skill}`}>
+                <span>Express.js</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.dotnet_skill}`}>
+                <span>ASP.NET</span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.skills_item}>
+            <h4>Databases:</h4>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.postgre_skill}`}>
+                <span>PostgreSQL</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.sqlserver_skill}`}>
+                <span>SQL Server</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.mysql_skill}`}>
+                <span>MySQL</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.oraclesql_skill}`}>
+                <span>Oracle SQL</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.mongodb_skill}`}>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.skills_item}>
+            <h4>Developer Tools:</h4>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.git_skill}`}>
+                <span>GitHub</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.vscode_skill}`}>
+                <span>VS Code</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.vs2022_skill}`}>
+                <span>VS 22</span>
+              </div>
+            </div>
+            <div className={styles.progress_bar}>
+            <div className={`${styles.progress_bar_fill} ${styles.bitbucket_skill}`}>
+                <span>BitBucket</span>
+              </div>
+            </div>
+          </div>          
+        </div>
       </div>
+
       <ContactInfo></ContactInfo>
     </div>
   );
