@@ -1,5 +1,8 @@
 /* Global Styles
+
 --------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Lato&family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
+
 body {
     background-image: url("images/bagroundWorkExperience.avif");
     min-height: 500px;
@@ -43,12 +46,12 @@ img {
 }
 
 .about p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
     margin-left: 20px;
     margin-right: 20px;
-    line-height: 22px;
-    font-weight: 500;
+    line-height: 28px;
+    font-weight: 900;
     font-size: medium;
 }
 
@@ -76,21 +79,21 @@ img {
 .title h1 {
     margin: 0px;
     padding: 4px;
-    font-family: 'Libre Baskerville', cursive;
-    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     font-size: xxx-large;
 }
 
 .about h3 {
-    font-family: 'Montserrat', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: x-large;
     margin: 0px;
 }
 
-.title h4 {
+.title h3 {
     margin: 0px;
     padding: 4px;
-    font-family: 'Times New Roman';
+    font-family: 'Poppins', sans-serif;
     font-size: small;
 }
 

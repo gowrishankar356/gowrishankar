@@ -48,16 +48,16 @@ const HomePage = () => {
               Software Developer Intern at Pringle Robotics Inc. As part of my
               education, my course work includes Software Engineering, Applied
               Algorithms, Applied Database Technologies, Advanced Database
-              Concepts, Elements of Artificial Intelligence, Data Mining, and Social
-              Media Mining
+              Concepts, Elements of Artificial Intelligence, Data Mining, and
+              Social Media Mining
               <br></br>
               <br></br>My Current role as a Software Developer Intern, I am
               responsible for constructing micro services both Front-End and
               Back-End using C#, .NET, MVC, SQL Server and Bootstrap. I also
-              involved in building front end pages for company web
-              applications using ReactJS, NextJS, and TypeScript and used the
-              API's configured above. Also, I have configured micro services
-              auto generator where it generates the code for Micro Services
+              involved in building front end pages for company web applications
+              using ReactJS, NextJS, and TypeScript and used the API's
+              configured above. Also, I have configured micro services auto
+              generator where it generates the code for Micro Services
               automatically.
               <br></br>
               <br></br>I have a previous work experience as an Oracle Associate
@@ -69,24 +69,24 @@ const HomePage = () => {
               1000's of records for budgeting and reconciliation purposes.
               <br></br>
               <br></br>
-              <div className={styles.skills}>
-                <div>
-                  <h3>Skills:</h3>
-                  <span className={styles.bold}>Languages:</span> Python, C#,
-                  ASP.NET, Java, SQL, Pl/SQL.
-                  <br></br>
-                  <span className={styles.bold}>Web Development:</span>{" "}
-                  JavaScript, TypeScript, HTML5, CSS, Node.js,Express.js,
-                  React.js, Next.js.<br></br>
-                  <span className={styles.bold}>Databases:</span> SQL Server,
-                  MySQL, MongoDB, Oracle SQL, MySQL.<br></br>
-                  <span className={styles.bold}>Developer Tools:</span> Visual
-                  Studio 22, VS Code, GIT Hub, Bitbucket, Jupyter Notebook.
-                </div>
-              </div>
             </p>
           </div>
         </div>
+        <div className={styles.skills}>
+            <div>
+              <h3>Skills:</h3>
+              <span className={styles.bold}>Languages:</span> Python, C#,
+              ASP.NET, Java, SQL, Pl/SQL.
+              <br></br>
+              <span className={styles.bold}>Web Development:</span> JavaScript,
+              TypeScript, HTML5, CSS, Node.js,Express.js, React.js, Next.js.
+              <br></br>
+              <span className={styles.bold}>Databases:</span> SQL Server, MySQL,
+              MongoDB, Oracle SQL, MySQL.<br></br>
+              <span className={styles.bold}>Developer Tools:</span> Visual
+              Studio 22, VS Code, GIT Hub, Bitbucket, Jupyter Notebook.
+            </div>
+          </div>
       </div>
       <ContactInfo></ContactInfo>
     </div>

@@ -7,7 +7,7 @@ import WorkExperience from "./pages/WorkExperience";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/gowrishankar">
+      <BrowserRouter>
         <Routes>
           <Route path="/"  element={<HomePage />} />
           <Route path="/projects"  element={<Projects />} />
