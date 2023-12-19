@@ -47,6 +47,11 @@ const NavBar = () => {
           </ul>
           <ul>
             <li onClick={removeActive}>
+              <a href="/skills">Skills</a>
+            </li>
+          </ul>
+          <ul>
+            <li onClick={removeActive}>
               <a href="/experience">Work Experience</a>
             </li>
           </ul>

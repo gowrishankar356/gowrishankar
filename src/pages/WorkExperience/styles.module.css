@@ -1,80 +1,86 @@
 /* Global Styles
 --------------------------------*/
-body {
-    background-color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-}
-
-.content_wrap {
-    max-width: 1000px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 60px 0;
-}
-
 img {
     width: 300px;
     height: 150px;
 }
 
-.content_wrap h2 {
-    margin: 0px;
-    font-family: 'work sans',cursive;
-}
 
 /* Work experience
 --------------------------------*/
 .work_experience_background {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
     background-image: url("images/bagroundWorkExperience.avif");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1000px;
+    margin-left: 100px;
+    width: 90%;
+    height: 100%;
+    padding: 60px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
-.work_experience {
-    font-weight: 500;
+.dates {
+    display: flex;
+    flex-direction: column;
+    gap: 850px;
+    margin-top: 15px;
+    width: 700px;
 }
 
-.work_experience p {
-    font-family: 'Montserrat', sans-serif;
+
+.ball {
+    position: relative;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 14px;
+    margin-top: 30px;
 }
 
-.work_experience h4 {
-    font-family: 'Open Sans';
-    font-weight: 800;
-    font-size: large;
+.ball2 {
+    position: relative;
+    top : 910px;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 14px;
+    margin-top: 30px;
 }
 
-.work_experience h2 {
-    margin-top: 8px;
+.ball3 {
+    position: relative;
+    top : 1550px;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 14px;
+    margin-top: 30px;
 }
 
-.work_experience h3 {
-    font-family: 'Georgia', cursive;
-    margin: 0px;
-    background-color: rgba(218, 143, 5, 0.711);
-    padding: 8px;
-    border-radius: 4px;
-    max-width: 160px;
+.bar {
+    position: absolute;
+    height: 1600px;
+    width: 4px;
+    left: 5px;
+    background-color: white;
 }
 
-.job_container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-    border-bottom: 1px dashed grey;
-    padding: 25px 0;
+.job_item {
+    margin-top: 25px;
+    width: 120%;
+    padding: 20px;
+    background-color: rgb(62, 62, 62, 0.8);
+    border-radius: 40px;
 }
 
-.job_item img {
-    margin-top: 16px;
-    width: 60px;
-    height: 30px;
-    border-radius: 4px;
-}
 
 .company_info {
     display: flex;
@@ -82,13 +88,9 @@ img {
     gap: 20px;
 }
 
-.job_summary {
-    line-height: 1.6;
-    font-weight: 510;
-    font-size: medium;
-}
-
-/* Education Info*/
-.baground {
-    background-size: cover;
+.company_info img {
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 4px;
 }

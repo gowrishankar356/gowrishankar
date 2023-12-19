@@ -2,8 +2,8 @@
 --------------------------------*/
 body {
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .content_wrap {
@@ -11,15 +11,10 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 60px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
-.content_wrap h2 {
-    font-family: 'work sans',sans-serif;
-}
-
-.content_wrap h3 {
-    font-family: 'work sans',cursive;
-}
 
 
 
@@ -72,14 +67,11 @@ body {
 .project_description {
     margin-left: 20px;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .project_description p {
-    font-family: 'Montserrat', sans-serif;
     font-size: medium;
     line-height: 1.6;
-}
-
-.project_description h3{
-    font-family: 'work sans',sans-serif;
 }
