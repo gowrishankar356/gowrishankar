@@ -42,17 +42,17 @@ const NavBar = () => {
         >
           <ul>
             <li onClick={removeActive}>
-              <a href="/">Home</a>
+              <a href="gowrishankar/">Home</a>
             </li>
           </ul>
           <ul>
             <li onClick={removeActive}>
-              <a href="/skills">Skills</a>
+              <a href="gowrishankar/skills">Skills</a>
             </li>
           </ul>
           <ul>
             <li onClick={removeActive}>
-              <a href="/experience">Work Experience</a>
+              <a href="gowrishankar/experience">Work Experience</a>
             </li>
           </ul>
           <ul>
