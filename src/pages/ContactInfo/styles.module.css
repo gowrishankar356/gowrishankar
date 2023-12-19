@@ -1,14 +1,8 @@
-.content_wrap {
-    max-width : 1000px;
-    width: 90%;
-    margin : 0 auto;
-    padding : 60px 0;
-    color: white;
-    font-weight: 600;
-}
 
 footer {
+    background-color: rgb(63, 62, 62);;
     text-align: center;
+    padding: 10px;
 }
 
 footer h3{
@@ -21,6 +15,21 @@ footer img{
     padding: 4px;
     width: 20px;
     height: 20px;
+}
+
+.footer_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_img img{
+    background-color: transparent;
+}
+
+.footer_img p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6px;
 }
 
 .contact_list {

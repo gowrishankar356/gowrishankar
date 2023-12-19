@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import ContactInfo from "../ContactInfo";
 import NavBar from "../NavBar";
+import { Typewriter } from "react-simple-typewriter";
 
 const Projects = () => {
   const sliderImagesHealthyHoosiers = [
@@ -20,11 +21,17 @@ const Projects = () => {
   return (
     <div>
       <NavBar></NavBar>
-
       <div className={styles.projects}>
         <div className={styles.content_wrap}>
           <h2>Featured Pojects</h2>
-          <h3>Software Engineering - Full Stack Projects</h3>
+          <h3>
+            <Typewriter
+              words={["Software Engineering - Full Stack Projects"]}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+            />
+          </h3>
           <div className={styles.projects_item}>
             <div className={styles.slider}>
               <SimpleImageSlider
@@ -110,7 +117,16 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <h3>Data Science - Data Mining and Sentiment Analysis Projects</h3>
+          <h3>
+            <Typewriter
+              words={[
+                "Data Science - Data Mining and Sentiment Analysis Projects",
+              ]}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+            />
+          </h3>
           <div className={styles.projects_item}>
             <div className={styles.project_description}>
               <h3>

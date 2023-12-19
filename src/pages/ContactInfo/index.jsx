@@ -3,13 +3,15 @@ import styles from "./styles.module.css";
 
 const ContactInfo = () => {
   return (
-    <div>
+    <div className={styles.content_wrap}>
       <footer className={styles.footer}>
         <div className={styles.content_wrap}>
           <h3>Contact information</h3>
           <ul className={styles.contact_list}>
             <li>
-              <a href="mailto:gbadugu@iu.edu"><img src="images/envelope-solid.svg"></img></a>
+              <a href="mailto:gbadugu@iu.edu">
+                <img src="images/envelope-solid.svg"></img>
+              </a>
             </li>
             <li>
               <a
@@ -28,14 +30,14 @@ const ContactInfo = () => {
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/gowrishankar356"
-                target="_blank"
-              >
+              <a href="https://github.com/gowrishankar356" target="_blank">
                 <img src="images/github.svg"></img>
               </a>
             </li>
           </ul>
+          <div className={styles.footer_img}>
+            <img src="images/copyright.svg"></img><p>2023 Gowri Shankar Badugu, All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </div>
