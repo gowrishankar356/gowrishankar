@@ -5,6 +5,12 @@ img {
     height: 150px;
 }
 
+.content_wrap {
+    max-width: 1200px;
+    width: 99%;
+    margin: auto auto;
+    padding: 60px 0;
+}
 
 /* Work experience
 --------------------------------*/

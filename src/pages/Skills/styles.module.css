@@ -147,7 +147,7 @@ h3 {
 
 .progress_bar_fill {
     width: 80%;
-    height: 72%;
+    height: 66%;
     border-radius: 14px;
     padding: 4px;
     border: groove;
@@ -156,142 +156,122 @@ h3 {
 
 .python_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .csharp_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .sql_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;   
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .plsql_skill {
     width: 65%;
-    background-color: #FFCC00;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_65 2s;
 }
 
 .javascript_skill {
     width: 80%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_80 2s;
 }
 
 .html_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .css_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .react_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .node_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .express_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .dotnet_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .postgre_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .sqlserver_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .mysql_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .oraclesql_skill {
     width: 85%;
-    background-color: #00FF00 ;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .mongodb_skill {
     width: 50%;
-    background-color: #FF0000;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_50 2s;
 
 }
 
 .git_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .vscode_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .vs2022_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
 .bitbucket_skill {
     width: 70%;
-    background-color: #FFCC00;
-    color: black;
+    background-color:rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
