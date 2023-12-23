@@ -106,7 +106,7 @@
     }
 
     .nav_bar_sub_content {
-        margin-top: 28px;
+        margin-top: 40px;
         position: fixed;
         flex-direction: column;
         gap: 0;
@@ -116,6 +116,7 @@
         transition: 0.7s ease-in-out;
         padding: 10px;
         background-color: gray;
+        border-radius: 10px; 
     }
 
     .hamburger {
@@ -165,8 +166,31 @@
     }
 }
 
-@media only screen and (max-width: 644px) {
+@media only screen and (max-width: 740px) {
     .nav_bar_sub_content.active {
         left: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_bar_sub_content.active {
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .nav_bar{
+        height: 80px;
+    }
+
+    .nav_bar_sub_content.active {
+        left: 60%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    .nav_bar_sub_content.active {
+        left: 55%;
     }
 }

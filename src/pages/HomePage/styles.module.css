@@ -34,14 +34,14 @@ h3 {
 
 /* About section
 --------------------------------*/
-
-.about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.about{
+    margin-top: 25px;
+    overflow: hidden;
 }
 
 .about img {
+    float: left;
+    margin-right: 20px;
     padding: 25px;
     margin-top: 55px;
     margin-right: 25px;
@@ -50,11 +50,10 @@ h3 {
     border-radius: 20%;
 }
 
+
 .about p {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
     line-height: 28px;
     font-weight: 900;
     font-size: medium;
@@ -64,8 +63,6 @@ h3 {
     margin-bottom: 0px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
     line-height: 2;
 }
 
@@ -107,222 +104,6 @@ h3 {
     max-height: 250px;
 }
 
+@media only screen and (max-width: 1260px) {
 
-
-/* Skills Section*/
-.skills {
-    width: 60%;
-    font-family: 'Poppins', sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-    gap: 20px;
-    margin-left: 200px;
-}
-
-.skills_item {
-    display: flex;
-    flex-direction: column;
-    border: groove;
-    border-radius: 20px;
-    padding: 20px;
-    gap: 10px;
-}
-
-.skills_item:hover {
-    background-color: rgb(63, 62, 62, 0.4);
-    ;
-}
-
-.skills_item h4 {
-    margin: 0;
-}
-
-.progress_bar {
-    width: 200px;
-    height: 30px;
-    background-color: white;
-    border-radius: 12px;
-}
-
-.progress_bar_fill {
-    width: 80%;
-    height: 64%;
-    background-color: rgb(63, 62, 62);
-    border-radius: 10px;
-    padding: 4px;
-    border: groove;
-    font-size: small;
-}
-
-.python_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.csharp_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.sql_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.plsql_skill {
-    width: 65%;
-    background-color: rgb(63, 62, 62);
-    animation: per_65 2s;
-}
-
-.javascript_skill {
-    width: 80%;
-    background-color: rgb(63, 62, 62);
-    animation: per_80 2s;
-}
-
-.html_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.css_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.react_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.node_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.express_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.dotnet_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.postgre_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.sqlserver_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.mysql_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.oraclesql_skill {
-    width: 85%;
-    background-color: rgb(63, 62, 62);
-    animation: per_85 2s;
-}
-
-.mongodb_skill {
-    width: 50%;
-    background-color: rgb(63, 62, 62);
-    animation: per_50 2s;
-
-}
-
-.git_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.vscode_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.vs2022_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-.bitbucket_skill {
-    width: 70%;
-    background-color: rgb(63, 62, 62);
-    animation: per_70 2s;
-}
-
-
-@keyframes per_85 {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 85%;
-    }
-}
-
-@keyframes per_70 {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 70%;
-    }
-}
-
-@keyframes per_65 {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 65%;
-    }
-}
-
-@keyframes per_80 {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 80%;
-    }
-}
-
-@keyframes per_50 {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 50%;
-    }
 }
