@@ -16,7 +16,6 @@ body {
     max-width: 1200px;
     width: 99%;
     margin: auto auto;
-    padding: 60px 0;
 }
 
 img {
@@ -31,10 +30,9 @@ h3 {
 
 /* Skills Section*/
 
-.skill_container{
+.skill_container {
     position: relative;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin: 100px 0px;
     border: groove;
     border-radius: 40px;
 }
@@ -45,10 +43,10 @@ h3 {
     width: 100%;
     height: 80px;
     z-index: -1;
-    border-radius: 40px 40px 0px 0px; 
+    border-radius: 40px 40px 0px 0px;
 }
 
-.skill_container h2{
+.skill_container h2 {
     padding-top: 10px;
     padding-left: 20px;
     font-family: 'Poppins', sans-serif;
@@ -72,12 +70,13 @@ h3 {
     border-radius: 20px;
     gap: 10px;
     padding-bottom: 20px;
+    margin: 20px;
 }
 
 .skills_nav {
     position: absolute;
-    background-color:  rgb(62, 62, 62, 0.8);
-    border-radius: 20px 20px 0px 0px; 
+    background-color: rgb(62, 62, 62, 0.8);
+    border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 80px;
     z-index: -1;
@@ -92,16 +91,17 @@ h3 {
     margin-bottom: 4px;
 }
 
-.skills_subheading{
+.skills_subheading {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 
-.skills_subheading img{
+.skills_subheading img {
     background-color: white;
     border-radius: 8px;
     padding: 6px;
@@ -110,9 +110,9 @@ h3 {
     margin-right: 8px;
 }
 
-.skills_subheading h3{
-    margin: 0; 
-    margin-top: 8px;   
+.skills_subheading h3 {
+    margin: 0;
+    margin-top: 8px;
 }
 
 .skill_icon {
@@ -129,17 +129,18 @@ h3 {
     margin-right: 4px;
 }
 
-.skill_icon p{
-    margin: 0; 
-    margin-top: 4px;  
-    font-weight: 600; 
+.skill_icon p {
+    margin: 0;
+    margin-top: 4px;
+    font-weight: 600;
 }
 
 
 .progress_bar {
     margin-top: 8px;
     margin-left: 20px;
-    width: 240px;
+    margin-right: 20px;
+    width: 60%;
     height: 40px;
     background-color: white;
     border-radius: 14px;
@@ -147,7 +148,7 @@ h3 {
 
 .progress_bar_fill {
     width: 80%;
-    height: 66%;
+    height: 70%;
     border-radius: 14px;
     padding: 4px;
     border: groove;
@@ -174,7 +175,7 @@ h3 {
 
 .plsql_skill {
     width: 65%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_65 2s;
 }
 
@@ -186,13 +187,13 @@ h3 {
 
 .html_skill {
     width: 85%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .css_skill {
     width: 85%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
@@ -228,25 +229,25 @@ h3 {
 
 .sqlserver_skill {
     width: 85%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .mysql_skill {
     width: 85%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .oraclesql_skill {
     width: 85%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_85 2s;
 }
 
 .mongodb_skill {
     width: 50%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_50 2s;
 
 }
@@ -271,7 +272,7 @@ h3 {
 
 .bitbucket_skill {
     width: 70%;
-    background-color:rgb(62, 62, 62, 1);
+    background-color: rgb(62, 62, 62, 1);
     animation: per_70 2s;
 }
 
@@ -325,3 +326,33 @@ h3 {
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 1360px) {
+    .skill_container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+    .skills {
+        padding: 0px;
+    }
+} 
+
+
+
+@media only screen and (max-width: 760px) {
+    .skills {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+}   
+
+@media only screen and (max-width: 430px) {
+
+    .skills_item {
+        width: 80%;
+    }
+}   

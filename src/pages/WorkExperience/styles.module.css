@@ -38,7 +38,7 @@ img {
     flex-direction: column;
     gap: 850px;
     margin-top: 15px;
-    width: 700px;
+    width: 70%;
 }
 
 
@@ -81,6 +81,7 @@ img {
 
 .job_item {
     margin-top: 25px;
+    margin-right: 25px;
     width: 120%;
     padding: 20px;
     background-color: rgb(62, 62, 62, 0.8);
