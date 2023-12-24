@@ -62,7 +62,6 @@
 
 .nav_bar ul {
     list-style-type: none;
-
 }
 
 .nav_bar ul li ul {
@@ -103,6 +102,10 @@
     .nav_btn {
         visibility: visible;
         opacity: 1;
+    }
+
+    .nav_bar ul{
+        padding-left: 10px;
     }
 
     .nav_bar_sub_content {
@@ -149,7 +152,7 @@
     }
 
     .nav_bar_sub_content.active {
-        left: 83%;
+        left: 85%;
     }
 }
 
@@ -189,8 +192,23 @@
 }
 
 @media only screen and (max-width: 460px) {
-
-    .nav_bar_sub_content.active {
+      .nav_bar_sub_content.active {
         left: 55%;
     }
+
+    .nav_bar{
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .nav_bar_sub_content.active {
+      left: 50%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+    .nav_bar_sub_content.active {
+      left: 45%;
+  }
 }
