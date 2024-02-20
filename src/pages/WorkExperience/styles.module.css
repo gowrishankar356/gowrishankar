@@ -25,18 +25,18 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1000px;
-    margin-left: 100px;
     width: 90%;
     height: 100%;
     padding: 60px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    margin: auto auto;
 }
 
 .dates {
     display: flex;
     flex-direction: column;
-    gap: 850px;
+    gap: 900px;
     margin-top: 15px;
     width: 70%;
 }
@@ -53,7 +53,7 @@ img {
 
 .ball2 {
     position: relative;
-    top : 910px;
+    top: 950px;
     height: 14px;
     width: 14px;
     background-color: white;
@@ -63,7 +63,7 @@ img {
 
 .ball3 {
     position: relative;
-    top : 1550px;
+    top: 1690px;
     height: 14px;
     width: 14px;
     background-color: white;
@@ -73,7 +73,7 @@ img {
 
 .bar {
     position: absolute;
-    height: 1600px;
+    height: 1740px;
     width: 4px;
     left: 5px;
     background-color: white;
@@ -82,10 +82,10 @@ img {
 .job_item {
     margin-top: 25px;
     margin-right: 25px;
-    width: 120%;
-    padding: 20px;
+    width: 100%;
     background-color: rgb(62, 62, 62, 0.8);
     border-radius: 40px;
+    padding: 20px;
 }
 
 
@@ -100,4 +100,22 @@ img {
     height: 30px;
     border-radius: 4px;
     margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .WorkExperienceBar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .job_item {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .job_item {
+        width: 90%;
+    }
 }

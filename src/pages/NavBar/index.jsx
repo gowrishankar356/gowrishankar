@@ -26,14 +26,14 @@ const NavBar = () => {
     }
   };
 
-  window.addEventListener('scroll', changeColor)
+  window.addEventListener("scroll", changeColor);
 
   return (
     <div className={`${styles.nav_bar} ${color ? styles.nav_bar_bg : ""}`}>
       <div className={styles.nav_bar_content}>
         <div className={styles.nav_bar_about}>
-          <h2>Gowri Shankar Badugu | </h2>
-          <h4>Software Developer Intern at Pringle Robitics Inc.</h4>
+          <h2>Gowri Shankar Badugu</h2>
+          {/* <h4>Software Developer Intern at Pringle Robitics Inc.</h4> */}
         </div>
         <div
           className={`${styles.nav_bar_sub_content} ${
@@ -42,22 +42,22 @@ const NavBar = () => {
         >
           <ul>
             <li onClick={removeActive}>
-              <a href="/gowrishankar">Home</a>
+              <a href="/">Home</a>
             </li>
           </ul>
           <ul>
             <li onClick={removeActive}>
-              <a href="/gowrishankar/skills">Skills</a>
+              <a href="/skills">Skills</a>
             </li>
           </ul>
           <ul>
             <li onClick={removeActive}>
-              <a href="/gowrishankar/experience">Work Experience</a>
+              <a href="/experience">Work Experience</a>
             </li>
           </ul>
           <ul>
             <li onClick={removeActive}>
-              <a href="/gowrishankar/projects">Featured Projects</a>
+              <a href="/projects">Featured Projects</a>
             </li>
           </ul>
         </div>

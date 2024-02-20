@@ -161,7 +161,7 @@ const Skills = () => {
                 >
                   <div className={styles.skill_icon}>
                     <img src="images/sql-server.svg"></img>
-                    <p>SQL Server Express</p>
+                    <p>SQL Ser Exp</p>
                   </div>
                 </div>
               </div>

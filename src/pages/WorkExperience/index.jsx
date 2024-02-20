@@ -10,11 +10,11 @@ const WorkExperience = () => {
       <div className={styles.content_wrap}>
         <NavBar></NavBar>
         <div className={styles.work_experience_background}>
-          <div className={styles.dates}>
+          <div className={`${styles.dates} ${styles.WorkExperienceBar}`}>
             <p>01-06-2023 - Ongoing</p>
             <p>01-10-2020 - 28-02-2022</p>
           </div>
-          <div>
+          <div className={styles.WorkExperienceBar}>
             <div className={styles.ball}>
               <div className={styles.bar}> </div>
               <div className={styles.ball2}> </div>

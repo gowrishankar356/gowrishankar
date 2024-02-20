@@ -4,6 +4,7 @@ import SimpleImageSlider from "react-simple-image-slider";
 import ContactInfo from "../ContactInfo";
 import NavBar from "../NavBar";
 import { Typewriter } from "react-simple-typewriter";
+import { useEffect, useState } from "react";
 
 const Projects = () => {
   const sliderImagesHealthyHoosiers = [
@@ -18,6 +19,24 @@ const Projects = () => {
     { url: "images/DeliveryManagementUpdatePage.png" },
     { url: "images/DeliveryManagementReadPage.png" },
   ];
+  const [height, setHeight] = useState(
+    window.innerHeight > 200 ? 200 : window.innerHeight
+  );
+  const [width, setWidth] = useState(
+    window.innerWidth > 650 ? 400 : window.innerWidth
+  );
+
+  useEffect(() => {
+    if (width < 650 && width > 450) {
+      setHeight(150);
+      setWidth(300);
+    } else if (width < 450) {
+      setHeight(150);
+      setWidth(200);
+    }
+    console.log(height);
+    console.log(width);
+  }, []);
   return (
     <div>
       <NavBar></NavBar>
@@ -35,8 +54,8 @@ const Projects = () => {
           <div className={styles.projects_item}>
             <div className={styles.slider}>
               <SimpleImageSlider
-                width={400}
-                height={200}
+                width={width}
+                height={height}
                 navMargin={5}
                 images={sliderImagesHealthyHoosiers}
                 showBullets={true}
@@ -73,8 +92,8 @@ const Projects = () => {
           <div className={styles.projects_item}>
             <div className={styles.slider_2}>
               <SimpleImageSlider
-                width={400}
-                height={200}
+                width={width}
+                height={height}
                 images={sliderImagesHoosiersDeliveryManagement}
                 showBullets={true}
                 showNavs={true}

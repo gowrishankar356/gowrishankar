@@ -22,7 +22,7 @@ const HomePage = () => {
           <h3>
             <Typewriter
               words={[
-                "Full Stack Developer!",
+                "Full Stack Developer at Pringle Robotics Inc.!",
                 "Data Science Graduate at Indiana University Bloomington!",
               ]}
               loop={5}
