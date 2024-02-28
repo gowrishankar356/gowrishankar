@@ -42,7 +42,7 @@ const NavBar = () => {
         >
           <ul>
             <li onClick={removeActive}>
-              <a href="/">Home</a>
+              <a href="/gowrishankar">Home</a>
             </li>
           </ul>
           <ul>
