@@ -38,30 +38,25 @@ const HomePage = () => {
           <img src="images/profilepic.jpeg"></img>
           <h3>About:</h3>
           <p>
-            I love building web sites and interfaces that improve user
+            I love building web applications and interfaces that improve user
             experience. That’s what drove me into software engineering up to
             now. Currently, I am pursuing my masters in Data Science at Indiana
-            University Bloomington, with 5 months of experience as a Software
-            Developer Intern at Pringle Robotics Inc. As part of my education,
-            my course work includes Software Engineering, Applied Algorithms,
-            Applied Database Technologies, Advanced Database Concepts, Elements
-            of Artificial Intelligence, Data Mining, and Social Media Mining
+            University Bloomington, with 2+ years of experience as a Software
+            Engineer. As part of my education, my course work includes Software
+            Engineering, Applied Algorithms, Applied Database Technologies,
+            Advanced Database Concepts, Elements of Artificial Intelligence,
+            Data Mining, and Social Media Mining
             <br></br>
-            <br></br>My Current role as a Software Developer Intern, I am
-            responsible for constructing micro services both Front-End and
-            Back-End using C#, .NET, MVC, SQL Server and Bootstrap. I also
-            involved in building front end pages for company web applications
-            using ReactJS, NextJS, and TypeScript and used the API's configured
-            above. Also, I have configured micro services auto generator where
-            it generates the code for Micro Services automatically.
             <br></br>
-            <br></br>I have a previous work experience as an Oracle Associate
-            HCM Consultant where I worked on Oracle HCM modules like Payroll,
-            Core HR, Self - Service, and Time and Labor. The responsibilities
-            include writing fast formulas for Earnings, Deductions, Accruals,
-            Time Calculation and Entry rules using SQL, Pl/SQL. I also
-            configured advanced reports consisting of 100's of tables and 1000's
-            of records for budgeting and reconciliation purposes.
+            As a Software Developer Intern, I am responsible for constructing
+            RESTful micro services using C#, ASP.NET(MVC), and SQL Server. I was
+            also responsible for building responsive client-server application
+            where I consumed above .NET RESTful APIs using React.js, HTML, CSS,
+            and Java Script. During my previous work experience as an Associate
+            Software Engineer at Cedelies Solutions Pvt Ltd, I configured REST
+            APIs using Java, Spring Boot, and PostgreSQL. Designed and Developed
+            various databases using PostgreSQL and managed them via UI built
+            using React.js, HTML, CSS, and Java Script.
             <br></br>
             <br></br>
           </p>

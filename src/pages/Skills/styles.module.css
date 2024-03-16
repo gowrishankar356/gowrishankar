@@ -10,6 +10,7 @@
     max-width: 1200px;
     width: 99%;
     margin: auto auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -24,16 +25,10 @@ h3 {
 
 /* Skills Section*/
 
-.skill_container {
-    position: relative;
-    margin: 100px 0px;
-    border: groove;
-    border-radius: 40px;
-}
 
 .skills_container_nav {
-    position: absolute;
-    background-color: rgb(62, 62, 62, 0.8);
+    margin-top: 60px;
+    background-color: #05181A;
     width: 100%;
     height: 80px;
     z-index: -1;
@@ -60,20 +55,20 @@ h3 {
     position: relative;
     display: flex;
     flex-direction: column;
-    border: groove;
     border-radius: 20px;
     gap: 10px;
     padding-bottom: 20px;
     margin: 20px;
+    box-shadow: 0px 6px 6px #6DAAC0;
 }
 
 .skills_nav {
-    position: absolute;
-    background-color: rgb(62, 62, 62, 0.8);
+    background-color: #6DAAC0;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 80px;
-    z-index: -1;
+    opacity: 70%;
+    /* z-index: -1; */
 }
 
 .skills_item:hover {
@@ -92,11 +87,12 @@ h3 {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 90%;
+    z-index: 1;
 }
 
 
 .skills_subheading img {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 8px;
     padding: 6px;
     width: 24px;
@@ -115,7 +111,7 @@ h3 {
 }
 
 .skill_icon img {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 8px;
     padding: 4px;
     width: 18px;
@@ -151,122 +147,122 @@ h3 {
 
 .python_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .csharp_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .sql_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .plsql_skill {
     width: 65%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_65 2s;
 }
 
 .javascript_skill {
     width: 80%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_80 2s;
 }
 
 .html_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .css_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .react_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .node_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .express_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .dotnet_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .postgre_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .sqlserver_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .mysql_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .oraclesql_skill {
     width: 85%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_85 2s;
 }
 
 .mongodb_skill {
     width: 50%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_50 2s;
 
 }
 
 .git_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .vscode_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .vs2022_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 
 .bitbucket_skill {
     width: 70%;
-    background-color: rgb(62, 62, 62, 1);
+    background-color: #6DAAC0;
     animation: per_70 2s;
 }
 

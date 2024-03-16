@@ -53,55 +53,34 @@ const WorkExperience = () => {
                 <h3>Responsibilities: </h3>
                 <ul>
                   <li>
-                    Developed a client-server application (Pringle NOC) in a
-                    team of 5 engineers to track and manage robots' locations
-                    and statuses in real-time using Next.js and TypeScript to
-                    ensure a responsive user interface.
+                    Executed design, development, testing, and deployment of
+                    secure RESTful API microservices in C#, ASP.NET, and
+                    Microsoft SQL Server, ensuring the efficient management of
+                    robots-related data for 50+ customers using API Key.
                   </li>
                   <li>
-                    Integrated the Google Maps API and marker clustering for
-                    peak map efficiency and to reduce 30% of page load times.
+                    Developed a frictionless and user-friendly client-server
+                    application utilizing React.js, HTML, CSS, and Google API
+                    integration to seamlessly consume RESTful API microservices
+                    to manage 200+ robots data.
                   </li>
                   <li>
-                    Engineered over 50 custom responsive UI components for the
-                    company's web applications, employing Next.js, TypeScript,
-                    and Storybook. Elevated user satisfaction by providing a
-                    seamless UI experience to customers.
+                    Standardized the React component implementation across web
+                    applications to increase reusability by developing 30+
+                    reusable components using React.js and Storybook.
                   </li>
                   <li>
-                    Co-ordinated with a team of 2 for creation of a Pringle API
-                    web environment utilizing Bootstrap, ASP.NET, C#, and SQL
-                    Server Express and used this environment to configure over
-                    200+ customer websites.
-                  </li>
-                  <li>
-                    Constructed a Micro Services Auto Generator, automating code
-                    generation for microservice’s Table script, CRUD scripts,
-                    BO, DAO, and Controller files using ASP.NET, C#, and SQL
-                    with 99% correctness.
-                  </li>
-                  <li>
-                    Auto Generator delivered an outstanding 98% reduction in
-                    manual workload for code generation for micro services.
-                  </li>
-                  <li>
-                    Aided company’s web applications by configuring more than 20
-                    micro services using Bootstrap, ASP.NET, C#, and SQL Server
-                    Express which includes developing Table, CRUD scripts, and
-                    DAO, BO, and Controller layers.
-                  </li>
-                  <li>
-                    Streamlined Agile Software Development processes by
-                    utilizing Trello as a Scrum board, resulting in a 40%
-                    increase in team collaboration and a 15% reduction in
-                    project delivery time.
+                    Automated microservices development by creating a C# .NET
+                    console app that generates code based on SQL table
+                    properties, resulting in a 99% reduction in coding time and
+                    ensuring 99% accuracy.
                   </li>
                 </ul>
                 <h3>Skills acquired: </h3>
                 <p>
-                  · C# · ASP.NET(MVC) · Microsoft SQL Server · ReactJS · NextJS
-                  · TypeScript <br></br>· Visual Studio · BitBucket · Agile
-                  Software Methodologies{" "}
+                  · C# · ASP.NET(MVC) · RESTful APIs · Microsoft SQL Server ·
+                  React.js · HTML · CSS <br></br>· Visual Studio · BitBucket ·
+                  Agile Software Methodologies{" "}
                 </p>
               </div>
             </div>
@@ -109,66 +88,53 @@ const WorkExperience = () => {
               <div>
                 <h2>
                   <Typewriter
-                    words={["Oracle HCM Associate Consultant"]}
+                    words={["Associate Software Engineer"]}
                     cursor
                     cursorStyle="|"
                     typeSpeed={100}
                   />
                 </h2>
                 <div className={styles.company_info}>
-                  <h3>Nalsoft Pvt Ltd.</h3>
+                  <h3>Cedelies Solutions Pvt Ltd.</h3>
                   <span>
-                    <a href="https://nalsoft.net/" target="_blank">
-                      <img src="images/nalsoft.jpeg"></img>
+                    <a href="http://cedeliessolutions.com/" target="_blank">
+                      <img src="images/cedelies.png"></img>
                     </a>
                   </span>
                 </div>
               </div>
               <div className={styles.job_summary}>
                 <p>
-                  Worked as an Oracle HCM Associate Consultant for fusion apps
-                  concentrating in Payroll, Core HR, Self-Service, and Oracle
-                  Time and Labor.
+                  Worked as an Associte Software Engineer to create Web
+                  Applications using Java, Spring Boot, React.js.
                 </p>
-                <p>Tech stack mainly used is Pl/SQL and SQL.</p>
+                <p>Tech stack mainly used is Java, Spring Boot, and SQL.</p>
                 <h3>Responsibilities: </h3>
                 <ul>
                   <li>
-                    Implemented and demonstrated three full-time Oracle Fusion
-                    ERP Systems which include Core HR, Payroll, Absence
-                    Management, Self-Service and Time and Labor modules which
-                    include retrieving employee salary details and leave data to
-                    calculate monthly salary, Indemnity, Social Insurance,
-                    deductions etc using SQL & PL/SQL.
+                    Created REST APIs and microservices using Spring Boot and
+                    Java to manage 30+ customers data present in PostgreSQL
+                    databases.
                   </li>
                   <li>
-                    Implemented advanced fast formulas for elements like Annual
-                    Leave, Social Insurance, Gratuity etc.
+                    Consumed APIs to exchange data in the form of XML & JSON by
+                    creating a robust and scalable web application using
+                    React.js, HTML, and CSS , resulting in a 70% increase in
+                    user engagement.
                   </li>
                   <li>
-                    Implemented advanced Reports to fetch, sort, process and
-                    highlight the employee data regarding implemented modules
-                    for budgeting and reconciliation purposes using SQL &
-                    PL/SQL.
-                  </li>
-                  <li>Data Migration for Go live.</li>
-                  <li>
-                    Self-Trained on advanced fast formulas of Oracle Time and
-                    Labor which mainly include retrieving the employee biometric
-                    data and calculate respective deductions and overtime
-                    earnings.
+                    Designed and engineered 4 databases including Stored
+                    Procedures, Indexes, and Triggers, related to 30+ customers
+                    using PostgreSQL
                   </li>
                   <li>
-                    Gained the hands-on experience in SQL & PL/SQL code
-                    optimization and implementing Oracle Fusion ERP System.
+                    Streamlined Agile Software Development processes by
+                    utilizing a Scrum board, resulting in a 40% increase in team
+                    collaboration and a 35% reduction in project delivery time.
                   </li>
                 </ul>
                 <h3>Skills acquired: </h3>
-                <p>
-                  Pl/SQL · SQL · Java · Payroll · Core HR · Self Service ·
-                  Learning Management<br></br> · Absence Management · Time and
-                  Labor
-                </p>
+                <p>· Java · SQL · Spring Boot · REST · PostgreSQL · React.js</p>
               </div>
             </div>
           </div>
