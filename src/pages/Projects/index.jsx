@@ -38,7 +38,7 @@ const Projects = () => {
     console.log(width);
   }, []);
   return (
-    <div>
+    <div className={styles.content}>
       <NavBar></NavBar>
       <div className={styles.projects}>
         <div className={styles.content_wrap}>

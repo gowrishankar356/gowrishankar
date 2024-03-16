@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const WorkExperience = () => {
   return (
-    <div>
+    <div className={styles.content}>
       <div className={styles.content_wrap}>
         <NavBar></NavBar>
         <div className={styles.work_experience_background}>
