@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className={styles.bodyFull}>
       <NavBar></NavBar>
       <div className={styles.content_wrap}>
         <div className={styles.title}>

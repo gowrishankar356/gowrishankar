@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Skills = () => {
   return (
-    <div>
+    <div className={styles.content}>
       <div className={styles.content_wrap}>
         <NavBar></NavBar>
         <div className={styles.skill_container}>

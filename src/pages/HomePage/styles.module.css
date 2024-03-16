@@ -3,21 +3,14 @@
 --------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Charm&family=Lato&family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
 
-body {
-    background-image: url("images/bagroundWorkExperience.avif");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Satisfy';
-    font-size: 15px;
-    color: white;
+.bodyFull {
+    background-color: #05181A;
 }
+
 
 .content_wrap {
     max-width: 1100px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 60px 0;
 }
@@ -37,6 +30,10 @@ h3 {
 .about {
     margin-top: 25px;
     overflow: hidden;
+    padding: 20px;
+    background-color: #05181A;
+    box-shadow: 0px 6px 6px #6DAAC0;
+
 }
 
 .about img {
@@ -76,6 +73,7 @@ h3 {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 .title h1 {
